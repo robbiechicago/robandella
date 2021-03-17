@@ -2,10 +2,9 @@
     margin: 40px 0;
 }
 
-.form-wrapper2 {
-    background-color: deeppink ;
+.mb0 {
+    margin-bottom: 0;
 }
-
 .mb2 {
     margin-bottom: 2rem;
 }
@@ -19,9 +18,23 @@
     margin-bottom: 5rem;
 }
 
+.addr {
+    display: block;
+    height: 400px;
+}
+
+.addr-inner {
+    display: block;
+    margin: 110px 0 0 0;
+}
+
 .bluey {
     background-color: #607d8b;
     color: #dae0e5;
+}
+
+.location-row {
+    background-color: #dae0e5;
 }
 
 .butn {
@@ -43,11 +56,20 @@
     font-size: 12px;
 }
 
-/*.registry {*/
-/*    background-color: #2a6496;*/
-/*    color: #eee;*/
-/*}*/
+.addr-container-bigger {
+    display: none;
+}
 
-/*.registry h2 {*/
-/*    color: #eee;*/
-/*}*/
+.addr-container-smaller {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .addr-container-bigger {
+        display: block;
+    }
+    .addr-container-smaller {
+        display: none;
+    }
+}
+
