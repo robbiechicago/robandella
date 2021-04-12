@@ -33,6 +33,17 @@
     color: #dae0e5;
 }
 
+.accom-3 {
+    border-top: 3px solid #607d8b;
+    background-color: #8B6E60;
+    color: #dae0e5;
+}
+
+.taxirow {
+    text-align: center;
+    border-left: 3px solid aliceblue;
+}
+
 .location-row {
     background-color: aliceblue;
 }
